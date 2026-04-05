@@ -1,44 +1,21 @@
 import './App.css'
-import NavBar from './components/NavBar.jsx';  // check file name is NavBar not NAvBar
+import NavBar from './components/NavBar.jsx';
 import Sidebar from './components/MyProfilepage.jsx';
-import Home from './components/Home.jsx';
-
+import AllRoute from './ALL-ROUTE.jsx';
 
 function App() {
-
   return (
     <>
+     
       <NavBar />
-      
-      <Sidebar/>
-      <Home/>
-      
+      <Sidebar />
+          
+
+        <AllRoute />
+
+
     </>
-  )
+  );
 }
 
-export default App
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default App;

@@ -1,4 +1,44 @@
+.social-icons {
+  list-style: none;
+  gap: 15px;              /* space between icons */
+}
 
+.social-icons li {
+  display: flex;
+}
 
+.nav-icon {
+  width: 30px;
+  height: 30px;
+ 
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
 
+/* 🔥 Hover effect */
+.nav-icon:hover {
+  transform: scale(1.2);
+}
+.Home{
+    color: black;
+}
+.Home:hover{
+    color: #00ff9d;
+    transform: scale(1.2);
+}
+.navbar {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  min-height: 50px;
+}
+.social-icons {
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+.navbar {
+  padding: 3px 10px !important;
+}
 

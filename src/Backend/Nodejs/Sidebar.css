@@ -1,0 +1,94 @@
+.sidebar {
+  width: 280px;
+  height: 100vh;
+  background: #1f2937;           /* Dark modern look */
+  color: #e5e7eb;
+  padding: 1.5rem 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.sidebar-header {
+  padding: 0 1.5rem 1.5rem;
+  border-bottom: 1px solid #374151;
+  margin-bottom: 1rem;
+}
+
+.sidebar-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #60a5fa;
+}
+
+.sidebar-header p {
+  margin: 0.3rem 0 0;
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0.85rem 1.5rem;
+  color: #d1d5db;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+}
+
+.sidebar-item:hover {
+  background: #374151;
+  color: white;
+  border-left-color: #60a5fa;
+  padding-left: 1.7rem;
+}
+
+.sidebar-item.active {
+  background: #374151;
+  color: white;
+  border-left: 3px solid #3b82f6;
+  font-weight: 600;
+}
+
+.icon {
+  font-size: 1.3rem;
+  width: 24px;
+}
+
+.topic-name {
+  font-size: 1.02rem;
+}
+
+.sidebar-footer {
+  padding: 2rem 1.5rem 1rem;
+  border-top: 1px solid #374151;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.sidebar-footer small {
+  color: #6b7280;
+  font-size: 0.8rem;
+}
+
+/* Scrollbar styling */
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 10px;
+}
