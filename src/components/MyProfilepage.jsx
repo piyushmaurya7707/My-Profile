@@ -7,6 +7,7 @@ import telegram from "../assets/telegram.png";
 import youtube from "../assets/youtube.png";
 import folder from "../assets/folder.png";
 import file from "../assets/file.png";
+import { Link } from "react-router-dom";
 function Sidebar() {
  
   
@@ -144,11 +145,13 @@ function Sidebar() {
 
 
 <div id="React" className="collapse">
+        
+        <Link to="/todo-list">
           <div className="nav-item sub">
             <img src={file} alt="" className="icon" />
-            <span>Project 1</span>
+            <span>Todo List</span>
           </div>
-
+        </Link>
           <div className="nav-item sub">
             <img src={file} alt="" className="icon" />
             <span>Project 2</span>
