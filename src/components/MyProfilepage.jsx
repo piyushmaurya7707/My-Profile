@@ -152,15 +152,18 @@ function Sidebar() {
             <span>Todo List</span>
           </div>
         </Link>
+        <Link to="/counter">
           <div className="nav-item sub">
             <img src={file} alt="" className="icon" />
-            <span>Project 2</span>
+            <span>Counter Project</span>
           </div>
-
+          </Link>
+               <Link to="/X-O">
           <div className="nav-item sub">
             <img src={file} alt="" className="icon" />
-            <span>Project 3</span>
+            <span>XandO</span>
           </div>
+          </Link>
         </div>
 
         <div id="folderhtml" className="collapse">

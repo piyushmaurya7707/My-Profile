@@ -1,0 +1,194 @@
+.container-box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+   flex-direction: column;
+   width: 100%;
+   height: 100vh;
+   /* background-image: url(./assets/nature.jpg);
+   background-size: cover;
+   background-position: center; */
+   background-color: purple;
+   border-radius: 40px;
+  
+}
+.display{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(19, 183, 233);
+    margin-top: 30px;
+    margin-bottom: 60px;
+    box-shadow: black 0px 0px 10px;
+}
+.counter-btn   {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(19, 183, 233);
+    border-radius: 50px;
+}
+
+
+.god-input {
+    gap: 30px;
+    margin-top: 30px;
+}
+.display {
+  background-color: #111;
+  color: #00e676;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-align: center;
+
+  padding: 15px 0;
+  margin: 15px 0;
+
+  border-radius: 8px;
+  border: 2px solid #333;
+
+  font-family: 'Courier New', monospace;
+
+  box-shadow: 
+    inset 0 0 8px rgba(0, 0, 0, 0.8),
+    0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Container */
+.input-display {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Name styles */
+.display-name {
+  font-size: 30px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.display-god {
+  font-size: 24px;
+  font-weight: 500;
+  color: #1650bd;
+  margin-bottom: 10px;
+}
+
+/* Info text */
+.display-goal,
+.display-count,
+.display-remaining {
+  font-size: 30px;
+  color: #94c216;
+  margin-bottom: 6px;
+}
+
+/* Optional: highlight count */
+.display-count {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Optional: remaining highlight */
+.display-remaining {
+  color: #e63946;
+}
+/* Button container */
+.counter-btn {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Real circular button */
+.button {
+  width: 60px;
+  height: 60px;
+  font-size: 28px;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 50%;
+
+  background-color: #2563eb;
+  color: white;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: #1e4ed8;
+  transform: scale(3);
+  margin-top: 60px;
+}
+
+/* Click effect */
+.button:active {
+  transform: scale(0.95);
+}
+
+/* Optional shadow for depth */
+.button {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.goal {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+
+  border-radius: 8px;
+  border: 1px solid #ccc;
+
+  background: #f9f9f9;
+  color: #333;
+
+  outline: none;
+
+  /* 3D effect */
+  box-shadow: 
+    inset 2px 2px 5px rgba(0, 0, 0, 0.1),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.8),
+    2px 2px 5px rgba(0, 0, 0, 0.1);
+
+  transition: all 0.2s ease;
+}
+
+/* Focus effect (pressed look) */
+.goal:focus {
+  background: #ffffff;
+
+  box-shadow: 
+    inset 3px 3px 6px rgba(0, 0, 0, 0.15),
+    inset -3px -3px 6px rgba(255, 255, 255, 0.9);
+
+  border-color: #2563eb;
+}
+
+.container-input{
+    margin-top: 100px;
+}
+.input-display {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 20px;
+}
+.input-display:hover {
+    background-color: #00e676;
+}
+.name-input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.display{
+    margin-top: 100px;
+    
+}
