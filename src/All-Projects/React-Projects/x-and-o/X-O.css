@@ -1,9 +1,14 @@
-.container {
+.container1 {
+
+
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(71, 40, 131);
     flex-direction: column;
-    border-radius: 30px;
+    border-radius: 30px;      
     margin-top: 40px;
+   margin-left: 10% ;    
     width: 70%;
 
 }

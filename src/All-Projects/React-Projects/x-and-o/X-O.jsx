@@ -21,7 +21,7 @@ export default function XO()  {
   return (
     <>
 
-    <div className='container'>
+    <div className='container1'>
         <div className='row1'>
      <button className='btnx' onClick={() => Xo()}>{xo}</button>
      <button className='btnx' onClick={() => Xo()}>{xo}</button>
